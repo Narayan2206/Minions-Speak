@@ -50,15 +50,15 @@
 
 footer{
     background-color: var(--banana);
-    height: 122px;
 }
 
-.footer-container{
-    max-width: 50%;
+footer p{
+    max-width: 600px;
     margin: auto;
 }
 
-.footer-container h3{
+
+footer h3{
     padding-top: 1rem ;
 }
 
