@@ -50,6 +50,9 @@
 
 footer{
     background-color: var(--banana);
+    position: relative;
+    bottom: 0;
+    left: 0;
 }
 
 footer p{
@@ -57,6 +60,9 @@ footer p{
     margin: auto;
 }
 
+footer p .link{
+    text-decoration: none;
+}
 
 footer h3{
     padding-top: 1rem ;
@@ -80,15 +86,12 @@ footer h3{
     text-align: center;
 }
 
-/*? Media Query for responsiveness  */
+
+/*? Media Query: responsiveness  */
 
 @media only screen  and (max-width: 600px) {
     
     .height-width{
         width: 70%;
-    }
-
-    #input-text{
-        font-size: 1rem;
     }
 }
