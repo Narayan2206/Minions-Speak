@@ -12,6 +12,10 @@
     --banana: #facc15;
 }
 
+body{
+    height: 98vh;
+}
+
 .navigation{
     background-color: var(--banana) ;
 }
