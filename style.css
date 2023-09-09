@@ -85,7 +85,10 @@ footer h3{
 @media only screen  and (max-width: 600px) {
     
     .height-width{
-        width: 60%;
-        height: 90px;
+        width: 70%;
+    }
+
+    #input-text{
+        font-size: 1rem;
     }
 }
